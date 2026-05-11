@@ -9,7 +9,7 @@ ENV HF_HOME=/workspace/hf_cache \
     TRANSFORMERS_CACHE=/workspace/hf_cache
 
 # Default settings — you can override any of these in the RunPod UI without rebuilding.
-ENV MODEL_NAME=meta-llama/Llama-3.2-3B-Instruct \
+ENV MODEL_NAME=meta-llama/Llama-3.1-8B-Instruct \
     MAX_MODEL_LEN=8192 \
     GPU_MEMORY_UTILIZATION=0.90 \
     PORT=8000
