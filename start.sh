@@ -20,3 +20,6 @@ exec python3 -m vllm.entrypoints.openai.api_server \
   --dtype auto \
   --enforce-eager \
   --disable-log-requests
+
+
+  
